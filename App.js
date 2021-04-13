@@ -16,6 +16,7 @@ const buttonPressed = msg => {
 const App = () => {
   return (
     <View style={styles.container}>
+      <Text style={{fontSize: 30}}>Welcome to RN CLI</Text>
       <Text style={{fontSize: 30}}>Hello from RN CLI</Text>
       <View style={{flexDirection: 'row'}}>
         <View style={{padding: 10}}>
