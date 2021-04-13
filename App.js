@@ -10,7 +10,7 @@ import React from 'react';
 import {StyleSheet, Text, View, Button} from 'react-native';
 
 const buttonPressed = msg => {
-  alert(msg);
+  alert('Message: ' + msg);
 };
 
 const App = () => {
